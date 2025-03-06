@@ -1,7 +1,7 @@
 z_better_comments.txt
 
 ---------------------------------------------
-    "better-comments.tags": [
+"better-comments.tags": [
     {
       "tag": "!",
       "color": "#FF2D00",
@@ -76,4 +76,3 @@ z_better_comments.txt
     }
   ]
 ---------------------------------------------
-
