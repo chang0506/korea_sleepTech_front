@@ -19,6 +19,7 @@
 # Ignore all local history of files
 .history
 .ionide
+
 *.mov
 *.mp3
 .DS_Store
