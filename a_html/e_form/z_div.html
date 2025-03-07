@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
   <style>
     .box {
       width: 300px;
-      border: 1px solid black;
+      border: 1px solid white;
       margin: 10px;
     }
 
@@ -15,9 +16,20 @@
       color: yellow;
       background-color: black;
     }
+
+    #unique1 {
+      background-color: lightblue;
+      color: black;
+      text-align: center;
+    }
+
+    #unique2 {
+      border: 3px dotted lightgreen;
+    }
   </style>
 </head>
-<body>
+
+<body bgcolor="black" text="white">
   <!--  
   div 태그: division(구분, 분할)
     >> 웹 페이지의 내용에 논리적인 구분을 정의하는 태그
@@ -44,6 +56,20 @@
     2. id 속성
     : 단 하나의 요소를 지정하는 속성
     - 웹 문서에서 단 하나의 속성값을 하나의 요소에 지정
+
+    >> 샵(#) 문자 뒤에 이어서 아이디명을 입력
+  -->
+  <div id="unique1">id 속성1</div>
+  <div id="unique2">id 속성2</div>
+
+  <!-- 
+    cf) id, class 명명규칙
+      1. id 속성은 유일성을 보장
+      2. 대소문자 구분 (header != HEADER)
+      3. 네이밍 규칙 - 숫자로 시작 가능 (권장 X)
+      4. 여러개의 단어를 사용하는 복합어는 -, _ 사용을 권장
+        (하이픈, 언더스코어)
   -->
 </body>
+
 </html>
