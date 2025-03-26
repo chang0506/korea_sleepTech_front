@@ -70,4 +70,4 @@ async function fetchUserData(userId: number) {
 fetchUserData(1);
 fetchUserData(2);
 fetchUserData(233333); // 네트워크 응답이 실패하였습니다.
-// fetchUserData('안녕'); 
+// fetchUserData('안녕');
