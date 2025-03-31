@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import B_React_Counter from './pages/a_basic/B_React_Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>Korea SleepTech React</h1>
+      
     </>
   )
 }
 
 export default App
+
+//! React Router Dom
+// : React에서 페이지 이동(라우팅)을 가능하게 해주는 라이브러리
+// - SPA인 React가 페이지 새로고침 없이 하나의 페이지에도 화면이 렌더링
+//    >> 이때 주소(URL)에 따라 다른 컴포넌트를 보여주고 싶을 때 사용
+
+//? 'npm 명령어를 사용한 라이브러리 설치 시!' 주의점
+// 반드시 node_modules가 위치하는 최상위 폴더(korea-sleepTect-react)에서 설치
+
+// npm install react-router-dom
+// npm install --save-dev @types/react-router-dom
+
+//? 주요 기능
+// <BrowserRouter>
+// : 라우터를 감싸는 부모 컴포넌트(필수!!)
+
+// <Routes>
+// : 여러개의 라우트들을 묶는 역할
+
+// <Route>
+// : 경로 path에 따라 어떤 컴포넌트를 보여줄지 정의
+
+// <Link>
+// : 페이지를 새로고침 없이 이동하는 링크
+
+// useNavigate(): 페이지 이동(뒤로가기, 앞으로 가기 등) Hook
+// useParams(): URL 파라미터값을 가져오는 Hook
