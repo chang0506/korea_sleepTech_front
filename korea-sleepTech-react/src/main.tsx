@@ -12,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     {/* 1. App.tsx 파일의 컴포넌트가 main.tsx에서 출력 */}
     <BrowserRouter>
+      {/* BrowserRouter: React-Router-Dom을 사용하기 위한 부모 컴포넌트 */}
     <App />
     </BrowserRouter>
   </StrictMode>,
