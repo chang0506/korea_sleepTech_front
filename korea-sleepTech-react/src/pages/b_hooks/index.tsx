@@ -21,7 +21,7 @@ import UseReducer02 from "./e_useReducer/UseReducer02";
 import Custom01 from "./f_cutomHook/Custom01";
 import Custom02 from "./f_cutomHook/Custom02";
 import TodoAppLocalStorage from "./z_todo/TodoAppLocalStorage";
-import Practice01 from "./practice01";
+import Practice01 from "./Practice01";
 
 const h2Style = {
   backgroundColor: "black",
